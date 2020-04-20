@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "debug-ng-effects"
+    }
+  },
+  "defaultProject": "debug-ng-effects",
+  "cli": {
+    "analytics": false
+  }
 }
