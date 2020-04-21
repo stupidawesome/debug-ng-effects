@@ -1,8 +1,9 @@
-import { Observable, of } from "rxjs"
-import { switchMap } from "rxjs/operators"
-import { Component, Input, OnInit } from "@angular/core"
+import {Observable, of} from "rxjs"
+import {switchMap} from "rxjs/operators"
+import {Component, Input, OnInit} from "@angular/core"
 import {Connect, Effect, Effects, State} from "ng-effects";
 
+/** Connected component **/
 @Component({
   selector: 'app-debug',
   template: `
